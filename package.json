@@ -1,0 +1,26 @@
+{
+  "name": "zhangw-cli",
+  "version": "1.1.0",
+  "description": "this is a zhangw-cli",
+  "main": "zhangw-cli.js",
+  "keywords": [
+    "zhangw",
+    "zhangw-cli"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "over": "git add . && git commit -m 'zhangw-cli' && git push && npm publish"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.2",
+    "download-git-repo": "^2.0.0",
+    "inquirer": "^7.0.0",
+    "ora": "^4.0.2"
+  },
+  "bin": {
+    "zhangw-cli": "main.js"
+  },
+  "author": "zhangw",
+  "license": "ISC"
+}
